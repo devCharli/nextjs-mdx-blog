@@ -1,47 +1,47 @@
 exports.COLOR_THEMES = {
   default: {
     colors: {
-      primary: '#7D7AFF',
-      'gradient-1': '#7d7aff',
-      'gradient-2': '#2121e2',
-      'gradient-3': '#00fff0',
-      'gradient-4': '#8785FF',
+      primary: '#333333', // Dark gray for strong contrast without harshness
+      'gradient-1': '#f5f5f5', // Light neutral
+      'gradient-2': '#e0e0e0', // Muted gray
+      'gradient-3': '#d6d6d6', // Softer gray
+      'gradient-4': '#bfbfbf', // Subtle contrast
     },
   },
   bejamas: {
     colors: {
-      primary: '#FF8585',
-      'gradient-1': '#7d7aff',
-      'gradient-2': '#2121E2',
-      'gradient-3': '#FF76B8',
-      'gradient-4': '#001AFF',
+      primary: '#5A5A5A', // Softer charcoal
+      'gradient-1': '#F8F1E5', // Warm beige
+      'gradient-2': '#DDD0B8', // Muted tan
+      'gradient-3': '#B0A695', // Balanced neutral
+      'gradient-4': '#8C8374', // Subtle shadow effect
     },
   },
   netlify: {
     colors: {
-      primary: '#00A354',
-      'gradient-1': '#00F0FF',
-      'gradient-2': '#00F0FF',
-      'gradient-3': '#FAFF00',
-      'gradient-4': '#00F0FF',
+      primary: '#3A3A3A', // Mid-dark gray
+      'gradient-1': '#EAEAEA', // Soft off-white
+      'gradient-2': '#D5D5D5', // Gentle contrast
+      'gradient-3': '#BBBBBB', // Warm neutral
+      'gradient-4': '#9E9E9E', // A touch darker
     },
   },
   reddie: {
     colors: {
-      primary: '#FF4D4D',
-      'gradient-1': '#FFC700',
-      'gradient-2': '#FF85DD',
-      'gradient-3': '#FF85DD',
-      'gradient-4': '#FF8585',
+      primary: '#4F4F4F', // Dark gray for readability
+      'gradient-1': '#F0EDE5', // Paper-like off-white
+      'gradient-2': '#D7CEC7', // Soft sepia
+      'gradient-3': '#C5BFB7', // Gentle tan
+      'gradient-4': '#AFA79F', // Slightly deeper beige
     },
   },
   greenie: {
     colors: {
-      primary: '#C78500',
-      'gradient-1': '#FFCC81',
-      'gradient-2': '#00F37F',
-      'gradient-3': '#00F37F',
-      'gradient-4': '#FFCC81',
+      primary: '#2E2E2E', // Deep charcoal for a classic print look
+      'gradient-1': '#F4F3EE', // Subtle eggshell
+      'gradient-2': '#DAD7CD', // Soft neutral green tint
+      'gradient-3': '#B5B2A8', // Balanced for readability
+      'gradient-4': '#A19F96', // Low contrast for comfort
     },
   },
 };
