@@ -15,3 +15,11 @@ h6 {
 body {
   font-family: var(--font-secondary);
 }
+
+:root {
+  --color-primary: #333333;
+  --color-gradient-1: #f5f5f5;
+  --color-gradient-2: #e0e0e0;
+  --color-gradient-3: #d6d6d6;
+  --color-gradient-4: #bfbfbf;
+}
