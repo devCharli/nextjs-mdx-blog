@@ -2,8 +2,8 @@ import { Feed } from 'feed';
 import { getPosts } from './mdx-utils';
 
 export function generateRSS() {
+  const siteURL = 'https://freshpotpourri.com'; // Using non-www version
   const posts = getPosts();
-  const siteURL = 'https://freshpotpourri.com';
 
   const feed = new Feed({
     title: 'freshpotpourri',
@@ -17,12 +17,14 @@ export function generateRSS() {
   });
 
   posts.forEach((post) => {
+    const postSlug = post.filePath.replace(/\.mdx?$/, ''); // Extract slug from filename
+    const postURL = `${siteURL}/posts/${postSlug}`;
+
     feed.addItem({
       title: post.data.title,
-      id: `${siteURL}/posts/${post.filePath.replace(/\.mdx?$/, '')}`,
-      link: `${siteURL}/posts/${post.filePath.replace(/\.mdx?$/, '')}`,
+      id: postURL,
+      link: postURL,
       description: post.data.description,
-      date: new Date(post.data.date),
     });
   });
 
