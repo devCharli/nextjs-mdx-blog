@@ -8,7 +8,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="naver-site-verification"
-            content="3386b78475d14f0a9e10a848fd5281c43649b91d"
+            content="9e07780d16410d5f85608e8712c9ff3e26e56961"
           />
         </Head>
         <body
