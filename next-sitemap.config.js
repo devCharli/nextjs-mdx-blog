@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://yourdomain.com',
+  siteUrl: 'https://freshpotpourri.com',
   generateRobotsTxt: true,
-  exclude: ['/secret-page'],
+  exclude: [''],
 };

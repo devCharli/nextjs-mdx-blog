@@ -3,14 +3,14 @@ import { getPosts } from './mdx-utils';
 
 export function generateRSS() {
   const posts = getPosts();
-  const siteURL = 'https://yourdomain.com';
+  const siteURL = 'https://freshpotpourri.com';
 
   const feed = new Feed({
-    title: 'Your Blog Name',
-    description: 'Blog description',
+    title: 'freshpotpourri',
+    description: '당신에게 필요한 정보를 한 곳에 정리 해 둔 사이트입니다.',
     id: siteURL,
     link: siteURL,
-    language: 'en',
+    language: 'ko',
     feedLinks: {
       rss2: `${siteURL}/rss.xml`,
     },
